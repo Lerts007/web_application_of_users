@@ -1,20 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Users />
+  <UserWindowModal v-if="getActivUser" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UserWindowModal from "./components/UserWindowModal.vue";
+import Users from "./components/Users.vue";
+import { mapGetters } from "vuex";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Users,
+    UserWindowModal,
+  },
+  computed: {
+    ...mapGetters(["getActivUser"]),
+  },
+};
 </script>
 
 <style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
