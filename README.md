@@ -1,5 +1,7 @@
 # Web-приложение
 
+![](https://raw.githubusercontent.com/Lerts007/Portfolio/main/img/project/web_application_of_users.png)
+
 ## Цель
 
 1. Получение списĸа пользователей с URL-адреса https://reqres.in/api/users?page=1
