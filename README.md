@@ -22,8 +22,4 @@
 [2]: https://raw.githubusercontent.com/Lerts007/Lerts007/b10bcd7964db2f9ec7864403a552ed8b83407acc/img/vuex.svg
 [3]: https://raw.githubusercontent.com/Lerts007/Lerts007/3dabb8f3ea149ced4579c0450228ebf864f6e561/img/axios.svg
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="styleReadme.css">
